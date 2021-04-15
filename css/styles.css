@@ -79,6 +79,24 @@ header, .navbar {
     color: #FFF;
 }
 
+.group-btn {
+    background-color: black;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.group-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    border-color: purple;
+}
+
 .main-btn {
     background-color: black;
     color: #FFF;
@@ -104,7 +122,7 @@ header, .navbar {
 /* Sobre a empresa */
 
 #about-area {
-    background-color: #F8DED6;
+    background-color: #D9C3E4;
 }
 
 .main-title {
@@ -203,4 +221,83 @@ header, .navbar {
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
+}
+
+/* Time */
+
+#team-area{
+    background-color: #f1f1f1;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card {
+    border-color: #444;
+    border-width: 8px;
+    margin-top: 15px;
+}
+
+/* Formulario */
+
+#apply-area {
+    height: 300px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+/* #formulario-img {
+    background-image: url('../img/formsimg.gif');
+    background-size: cover;
+    height: 100%;
+} */
+
+.apply-box h4 {
+    color: #f1f1f1;
+    font-size: 29px;
+    font-weight: bold;
+    /* margin-top: 8%;
+    text-transform: uppercase; */
+}
+
+.apply-box p {
+    font-size:18px;
+    text-align: center;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+#apply-btn{
+    display:block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: black;
+    transition: .5s;
+}
+
+#apply-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    border-color: purple;
+    background-color: purple;
 }
