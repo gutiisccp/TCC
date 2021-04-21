@@ -155,7 +155,7 @@ $( document ).ready(function() {
     let servicesSection = $('#services-area');
     let teamSection = $('#team-area');
     let portfolioSection = $('#portfolio-area');
-    let contactSection = $('#contact-area');
+    // let contactSection = $('#contact-area');
   
     let scrollTo = '';
   
@@ -171,8 +171,8 @@ $( document ).ready(function() {
         scrollTo = teamSection;
       } else if(btnId == 'portfolio-menu') {
         scrollTo = portfolioSection;
-      } else if(btnId == 'contact-menu') {
-        scrollTo = contactSection;
+      // } else if(btnId == 'contact-menu') {
+      //   scrollTo = contactSection;
       } else {
         scrollTo = bannerSection;
       }
