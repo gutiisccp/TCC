@@ -327,6 +327,14 @@ header, .navbar {
     background-color: #252525;
 }
 
+.project-box1 img {
+    width: 75%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    vertical-align: middle;
+    background-color: #1f0101;
+}
+
 /* newslatter */
 
 #news-area {
@@ -519,3 +527,39 @@ header, .navbar {
         width: 80%;
     }
 }
+
+.box-cookies.hide {
+    display: none !important;
+  }
+  
+  .box-cookies {
+    position: absolute;
+    background: rgba(0, 0, 0, .9);
+    width: 40%;
+    margin: 0 0 50px 30px;
+    z-index: 998;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .box-cookies .msg-cookies,
+  .box-cookies .btn-cookies {
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .box-cookies .btn-cookies {
+    background: #831157;
+    cursor: pointer;
+    align-self: normal;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box-cookies {
+      flex-direction: column;
+    }
+  }
