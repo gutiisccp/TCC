@@ -561,5 +561,6 @@ header, .navbar {
   @media screen and (max-width: 600px) {
     .box-cookies {
       flex-direction: column;
+      /* width: 100%; */
     }
   }
